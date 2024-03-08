@@ -1,0 +1,9 @@
+# Ignore a specific file
+babel.config.js
+
+# Ignore all files with a specific extension
+*.json
+
+
+# Ignore a specific directory and its contents
+/node_modules/
