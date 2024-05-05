@@ -21,7 +21,7 @@ const countStudents = (path) => new Promise((res, rej) => {
           console.log(`Number of students in ${field}: ${students[field].length}. List: ${students[field].join(', ')}`);
         }
       }
-      res(students);
+      res();
     }
   });
 });
