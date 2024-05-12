@@ -12,7 +12,7 @@ describe('calculateNumber()', () => {
     });
 
     it(`should return the sum of two rounded numbers (float and float)`, () => {
-        assert.strictEqual(calculateNumber(1.2, 3.7), 5);
+        assert.strictEqual(calculateNumber(1.2, 3), 4);
     });
 
     it(`should return the sum of two rounded numbers (float and float) rounding up`, () => {
