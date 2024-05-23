@@ -4,7 +4,8 @@
     "test": "mocha"
   },
   "dependencies": {
-    "chai": "^4.3.4"
+    "chai": "^4.3.4",
+    "sinon": "^18.0.0"
   },
   "devDependencies": {
     "mocha": "^9.1.3"
