@@ -10,11 +10,11 @@ describe("calculateNumber()", function() {
     });
     it(`checking if numbers round`, function() {
       const res = calculateNumber("SUBTRACT", 1.4, 2.2);
-      assert.strictEqual(res, 1);
+      assert.strictEqual(res, -1);
     });
     it(`checking if numbers round`, function() {
       const res = calculateNumber("SUBTRACT", 4.9, 2.7);
-      assert.strictEqual(res, -2);
+      assert.strictEqual(res, 2);
     });
     it(`checking if numbers round`, function() {
       const res = calculateNumber("DIVIDE", 4, 2);
